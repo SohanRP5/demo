@@ -1,0 +1,14 @@
+import numpy as np
+import pandas as pd
+data={'X':[4,5],'y':[9,8]}
+df=pd.Dataframe(data)
+x=df['X']
+y=df['Y']
+x_mean=x.mean()
+y_mean=y.mean()
+print(x_mean)
+print(y_mean)
+
+
+
+
